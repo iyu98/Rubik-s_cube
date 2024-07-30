@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: [master]
 
 jobs:
   build-and-deploy:
@@ -12,4 +12,4 @@ jobs:
         with:
           provider: pages
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          folder: /  # 指定部署 dist 目录
+          folder: /rubikscube.github.io  # 指定部署 dist 目录
