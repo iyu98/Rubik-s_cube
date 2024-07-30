@@ -12,4 +12,4 @@ jobs:
         with:
           provider: pages
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          folder: /rubikscube.github.io  # 指定部署 dist 目录
+          folder: rubikscube.github.io/web  # 指定部署 dist 目录
